@@ -5,66 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
+    <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<div class="page">
-    <header class="clearfix">
-        <h1 class="name">Daniel Doyle</h1>
-        <nav class="sitenav">
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li class="navborder"><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+<body>
+    
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Daniel Doyle</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
-    <body>
-        <section>
-            <div class="main-about">
-            <h2>Contact</h2>
-            <hr>
-            <form>
-                Name:<br>
-                <input type="text" name="John Doe">
-                <br>
-                Email:<br>
-                <input type="text" name="example@email.com">
-                <br>
-                Message:<br>
-                <textarea name="Type your message here" cols="30" rows="10">Type your message here </textarea>
-                <br>
-                <button type="submit">Submit</button>
-                <br>
+    
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
+    
+            <form id="contact-form">
+            <ul>
+                <li>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                </li>
+                <li>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                </li>
+                <li>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required="required"></textarea>
+                </li>
+            </ul>
+            <input type="submit">
             </form>
-            </div>
-            <aside class="sidebar">
+        </section>
+    
+        <aside class="sidebar">
+            <div id="connect">
                 <h2>Connect with Me</h2>
-                <hr>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="https://github.com/dbdoyle182" target="_blank">
-                                <img class="logo" src="./images/if_github_square_black_107109.png" alt="Github">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/daniel-doyle-b34a90ba/" target="_blank">
-                                <img class="logo" src="./images/if_linkedin_square_color_107091.png" alt="Linkedin">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/users/story/9262448" target="_blank">
-                                <img class="logo" src="./images/if_overflow_334695.png" alt="Stack Overflow">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </aside>
-        </section>   
-    </body>
-</div>
-<footer>
-        Copyright @ Daniel Doyle 2018
-</footer>
+                
+                <a href="https://github.com/dbdoyle182" target="_blank"><img class="social" src="./images/if_github_square_black_107109.png" alt="Github"></a>
+                <a href="https://www.linkedin.com/in/daniel-doyle-b34a90ba/" target="_blank"><img class="social" src="./images/if_linkedin_square_color_107091.png" alt="Linkedin"></a>
+                <a href="https://stackoverflow.com/users/story/9262448" target="_blank"><img class="social" src="./images/if_overflow_334695.png" alt="Stack Overflow"></a>
+            </div>
+        </aside>       
+    </div>
+        <footer>
+                <div class="container">
+                    Copyright @ Daniel Doyle 2018
+                </div>
+        </footer>
+
+</body>
+
+
 </html>

@@ -5,75 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<div class="page">
-    <header class="clearfix">
-        <h1 class="name">Daniel Doyle</h1>
-        <nav class="sitenav">
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li class="navborder"><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+<body>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Daniel Doyle</a>
+            <nav>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
-    <body>
-        <section>
-            <div class="main-about">
-                <h1>Portfolio</h1>
-                <hr>
-                <div class="imagelist">
-                    <div class="img">
-                        <img src="./images/Cat1.jpg" alt="">
-                        <p class="title">Project 1</p>
-                    </div>
-                    <div class="img">
-                        <img src="./images/Cat2.jpg" alt="">
-                        <p class="title">Project 2</p>
-                    </div>
-                    <div class="img">
-                        <img src="./images/Cat3.jpg" alt="" style="width: 260px">
-                    
-                        <p class="title">Project 3</p>
-                    </div>
-                    <div class="img">
-                        <img src="./images/Cat4.jpg" alt="" style="width: 260px">
-                    
-                        <p class="title">Project 4</p>
-                    </div>
-                    <div class="img">
-                        <img src="./images/Cat5.jpg" alt="" style="width: 260px">
-                        <p class="title">Project 5</p>
-                    </div>
-                </div>
+
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Portfolio</h1>
+    
+            <div class="work">
+            <img src="./images/Cat1.jpg" alt="hangman">
+    
+            <h3>Project 1</h3>
             </div>
-            <aside class="sidebar">
-                <h2>Connect with Me</h2>
-                <hr>
-                    <ul>
-                        <li>
-                            <a href="https://github.com/dbdoyle182" target="_blank">
-                                <img class="logo" src="./images/if_github_square_black_107109.png" alt="Github">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/daniel-doyle-b34a90ba/" target="_blank">
-                                <img class="logo" src="./images/if_linkedin_square_color_107091.png" alt="Linkedin">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/users/story/9262448" target="_blank">
-                                <img class="logo" src="./images/if_overflow_334695.png" alt="Stack Overflow">
-                            </a>
-                        </li>
-                    </ul>
-            </aside>
+            <div class="work">
+            <img src="./images/Cat2.jpg" alt="RPG Game">
+    
+            <h3>Project 2</h3>
+            </div>
+            <div class="work">
+            <img src="./images/Cat3.jpg" alt="Trivia Game">
+    
+            <h3>Project 3</h3>
+            </div>
+            <div class="work">
+            <img src="./images/Cat4.jpg" alt="Rutgers Info Widget">
+    
+            <h3>Project 4</h3>
+            </div>
+            <div class="work">
+            <img src="./images/Cat5.jpg" alt="Rock Paper Scissors">
+    
+            <h3>Project 5</h3>
+            </div>
+    
         </section>
-    </body>
-</div>
-<footer>
-        Copyright @ Daniel Doyle 2018
-</footer>
+        <aside class="sidebar">
+            <div id="connect">
+                <h2>Connect with Me</h2>
+                
+                <a href="https://github.com/dbdoyle182" target="_blank"><img class="social" src="./images/if_github_square_black_107109.png" alt="Github"></a>
+                <a href="https://www.linkedin.com/in/daniel-doyle-b34a90ba/" target="_blank"><img class="social" src="./images/if_linkedin_square_color_107091.png" alt="Linkedin"></a>
+                <a href="https://stackoverflow.com/users/story/9262448" target="_blank"><img class="social" src="./images/if_overflow_334695.png" alt="Stack Overflow"></a>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container">
+            Copyright @ Daniel Doyle 2018
+        </div>
+    </footer>
+</body>
 </html>
