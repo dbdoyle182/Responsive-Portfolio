@@ -296,7 +296,7 @@ h2 a {
     display: block;
 }
 
-header {
+#masthead {
     position: static;
 }
 }
