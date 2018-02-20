@@ -284,6 +284,8 @@ nav {
     width: 100%;
 }
 
+}
+
 @media screen and (max-width: 640px) {
 
 .container {
@@ -294,4 +296,7 @@ h2 a {
     display: block;
 }
 
+header {
+    position: static;
+}
 }
