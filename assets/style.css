@@ -1,0 +1,61 @@
+.page {
+    margin: 0 auto;
+    width: 960px;
+}
+.name {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    float: left;
+}
+.sitenav {
+    float: right;
+}
+.sitenav, li {
+    display: inline;
+}
+.main-about {
+    clear: both;
+    width: 650px;
+    margin-right: 0;
+    float: left;
+}
+footer {
+    text-align: center;
+    clear: both;
+    padding: 50px 0;
+}
+.sidebar {
+    width: 250px; 
+    float: right;
+    margin-right: 0;
+}
+.imgme {
+    float: left;
+    padding-right: 30px;
+}
+.clearfix::after{
+    Content: "";
+    Display: block;
+    Clear: both;
+}
+.img {
+    height: 25%;
+    width: 25%;
+    display: inline-block;
+
+}
+.title {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.imagelist {
+    margin: 0;
+    padding: 0;
+    height: 75%;
+
+}
+.img {
+    width: 45%;
+    background: url(images/Cat1.jpg);
+}
