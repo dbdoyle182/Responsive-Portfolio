@@ -299,4 +299,7 @@ h2 a {
 #masthead {
     position: static;
 }
+#main-container {
+    padding-top: 0px;
+}
 }
